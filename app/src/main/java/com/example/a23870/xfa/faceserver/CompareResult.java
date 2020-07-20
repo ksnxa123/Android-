@@ -1,0 +1,40 @@
+package com.example.a23870.xfa.faceserver;
+
+/**
+ * Created by 23870 on 2020/4/3.
+ */
+public class CompareResult {
+    private String userName;
+    private float similar;
+    private int trackId;
+
+    public CompareResult(String userName, float similar) {
+        this.userName = userName;
+        this.similar = similar;
+    }
+
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public float getSimilar() {
+        return similar;
+    }
+
+    public void setSimilar(float similar) {
+        this.similar = similar;
+    }
+
+    public int getTrackId() {
+        return trackId;
+    }
+
+    public void setTrackId(int trackId) {
+        this.trackId = trackId;
+    }
+}

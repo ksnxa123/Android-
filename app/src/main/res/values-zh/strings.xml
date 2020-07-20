@@ -1,0 +1,36 @@
+<resources>
+    <!--app名称-->
+
+    <!--配置、功能选择界面-->
+    <string name="active_success">激活引擎成功</string>
+    <string name="active_failed" formatted="false">引擎激活失败，错误码为 %d</string>
+
+    <!--人脸属性检测（图片） 界面-->
+
+    <!--人脸比对1:n（图片vs图片） 界面-->
+
+    <!--各个界面获取本地图片失败提示-->
+
+    <!--各个界面获取权限失败时的提示-->
+    <string name="permission_denied">权限被拒绝！</string>
+
+    <!--各个界面引擎初始化失败的提示-->
+
+    <!--单目、双目识别注册界面-->
+    <string name="register">注册</string>
+    <string name="switch_camera">切换相机</string>
+    <string name="switch_camera_failed">切换相机失败</string>
+    <string name="recognize_failed_notice" formatted="false">未通过:%s</string>
+    <string name="recognize_success_notice" formatted="false">通过:%s</string>
+    <string name="low_confidence_level">人脸置信度低</string>
+    <string name="specific_engine_init_failed" formatted="false">%s 初始化失败，错误码为:%d</string>
+    <string name="notice_change_detect_degree">相机已切换，若无法检测到人脸，需要在首页修改视频模式人脸检测角度</string>
+    <string name="liveness_detect">活体检测</string>
+
+    <!--人脸批量注册进度框-->
+    <string name="progress_dialog_batch_register" formatted="false">进度: %d / %d</string>
+    <string name="progress_dialog_registering_please_wait">注册中，请稍等</string>
+
+    <!--批量处理-->
+
+</resources>

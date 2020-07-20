@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">XFA</string>
+    <!-- 请替换成在语音云官网申请的appid -->
+    <string name="app_id">5e82ba92</string>
+
+    <!--batch process dialog-->
+    <string name="progress_dialog_batch_register" formatted="false">progress: %d / %d</string>
+    <string name="progress_dialog_registering_please_wait">registering,please wait</string>
+
+    <!--global permission denied notification-->
+    <string name="permission_denied">permission denied!</string>
+
+
+    <!--single/dual camera register&recognize page-->
+    <string name="register">register</string>
+    <string name="switch_camera">switch camera</string>
+    <string name="switch_camera_failed">switch camera failed</string>
+    <string name="notice_change_detect_degree">camera switched, if no face detected, please change face detect degree in homepage</string>
+    <string name="recognize_failed_notice">DENIED:%s</string>
+    <string name="recognize_success_notice">PASS:%s</string>
+    <string name="low_confidence_level">face low confidence level</string>
+    <string name="specific_engine_init_failed" formatted="false">%s init failed, code is:%d</string>
+    <string name="liveness_detect">liveness detect</string>
+
+    <string name="active_success">active success</string>
+    <string name="active_failed">active failed,code is %d</string>
+
+</resources>
